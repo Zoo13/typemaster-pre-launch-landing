@@ -1,0 +1,460 @@
+html {
+    box-sizing: border-box;
+
+}
+
+body{
+
+    font-family: 'Barlow', sans-serif;
+    font-weight: normal;
+}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 23px auto;
+    max-width: 327px;
+}
+
+#button1 {
+    background-color: #E8EFF2;
+    color: #162542;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#button1:hover {
+    cursor: pointer;
+    background-color: #162542;
+    color: #FFFFFF;
+}
+
+#TM-img {
+    height: 100%;
+}
+
+.text-1-container {
+    display: flex;
+    flex-direction: column;
+    margin: 17.1% 6.4%;
+    width: 327px;
+}
+
+
+h1 {
+    color: #162542;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+
+}
+#top-p {
+    color:#7B8BAD;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 9.8%;
+}
+#button2 {
+    background-color: #F16718;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 600;
+}
+#button2:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.text-1-container-bot{
+    display: flex;
+    align-items: center;
+    margin-top: 9.8%;
+}
+
+
+h5 {
+    color: #7B8BAD;
+    margin-left: 9.8%;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.main-top {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+}
+.top-img {
+    background-image: url(assets/mobile/image-keyboard.jpg);
+    width: 372px;
+    height: 331px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    right: -24px;
+    margin-bottom: 24px;
+
+}
+
+
+.main-bot{
+    display: flex;
+    justify-content: center;
+}
+
+.bot-1-img {
+    background-color: #f26818;
+    background-image: url(assets/mobile/image-phone-and-keyboard.jpg);
+    width: 129px;
+    height: 193px;
+    background-size: cover;
+    border-radius: 15px;
+    background-blend-mode: multiply;
+    position: relative;
+    right: 24px;
+
+}
+.bot-2-img {
+    background-image: url(assets/mobile/image-glass-and-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 222px;
+    height: 193px;
+    border-radius: 15px;
+    margin-right: 6.4%;
+}
+
+.text-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20% 6.4% 12.55%;
+    text-align: center;
+}
+
+
+h2 {
+    color: #162542;
+    font-size: 32px;
+    width: 255px;
+    height: 108px;
+    font-weight: 900;
+    line-height: 36px
+
+}
+#bot-p {
+    color: #7B8BAD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    width: 327px;
+    margin-top: 6.4%;
+
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-1 , .box-2 , .box-3 , .box-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 17.1% 6.4% 0;
+    width: 327px;
+}
+
+.icon-box {
+    background-color: #F16718;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+h3 {
+    color: #162542;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 12.9%;
+
+}
+
+.box-container p {
+    color: #7B8BAD;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 7.4%;
+}
+
+.footer-footer {
+    margin: 25.6% 6.4% 13.35%;
+    text-align: center;
+}
+
+
+footer .footer-footer p {
+    color: #7B8BAD;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+em {
+    font-weight: 500;
+    font-style: normal;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 768px;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    .header {
+        max-width: 688px;
+        margin: 23px auto 0;
+    }
+    .main-top {
+        flex-direction: initial;
+        margin: 60px auto 0;
+        max-width: 770px;
+    }
+    .top-img {
+        background-image: url(assets/tablet/image-keyboard.jpg);
+        right: initial;
+        width: 478px;
+        height: 425px;
+        left: 10px;
+    }
+    .text-1-container {
+        margin: 0;
+        width: 339px;
+        margin: 0 69px 0 40px;
+    }
+    .main-bot {
+        margin: 0 40px 0 39px;
+    }
+
+    .bot-1-img {
+        background-image: url(assets/tablet/image-phone-and-keyboard.jpg);
+        width: 214px;
+        height: 320px;
+        right: inherit;
+    }
+    .bot-2-img {
+        background-image: url(assets/tablet/image-glass-and-keyboard.jpg);
+        width: 445px;
+        height: 320px;
+        margin: 0 0 0 30px;
+    }
+
+    .text-2 {
+        flex-direction: initial;
+        margin: initial;
+        text-align: initial;
+        justify-content: space-between;
+        max-width: 768px;
+        margin: 72px auto;
+    }
+    
+    #bot-p {
+        margin: 0 40px 0 0;
+        width: 398px;
+        height: 78px;
+    }
+    h2 {
+        margin-left: 39px;
+    }
+
+
+    .box-container {
+        flex-direction: initial;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 768px;
+        margin: auto;
+    }
+    .box-1 , .box-2 , .box-3 , .box-4 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: initial;
+        margin: 0;
+        width: 315px;
+        height: 289px;
+        
+    }
+
+    .box-container p {
+        color: #7B8BAD;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 500;
+        margin-top: 7.4%;
+        max-width: 281px;
+
+    }
+    h3 {
+        max-width: 219px;
+    }
+    .footer-footer {
+        margin: 142px auto 43px;
+    }
+    
+}
+
+@media screen and (min-width: 1440px){
+    body {
+        max-width: 1440px;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    .header {
+        max-width: 1110px;
+        margin: 65px auto 0;
+    }
+
+    #button1 , #button2 {
+        width: 175px;
+        height: 58px;
+        font-size: 16px;
+    }
+    .text-1-container {
+        margin: 0 125px 0 0px;
+    }
+    .text-1-container h5 {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 56px;
+    }
+    #top-p {
+        font-size: 18px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns:   auto;
+        grid-template-areas:    "header header"
+                                "sidebar content"
+    }
+    .main-top {
+        margin: 80px auto 0;
+        max-width: 1194px;
+        overflow: initial;
+        grid-area: header;
+    }
+    .main-bot {
+        margin: 0;
+        grid-area: sidebar;
+        justify-content: flex-end;
+        
+    }
+
+
+    .text-1-container {
+        width: 445px;
+        height: 312px;
+    }
+
+    .top-img {
+        background-image: url(assets/desktop/image-keyboard.jpg);
+        background-size: cover;
+        width: 540px;
+        height: 480px;
+        left: 0;
+    }
+    .top-img::after {
+        content: "";
+        background-image: url(assets/shared/pattern-square.svg);
+        width: 255px;
+        height: 240px;
+        position: absolute;
+        left: 110%;
+    }
+    
+    .bot-1-img::before {
+        content: "";
+        background-image: url(assets/shared/pattern-square.svg);
+        position: absolute;
+        width: 255px;
+        height: 236px;
+        top: 50%;
+        right: 120%;
+    }
+
+
+    .bot-1-img {
+        background-image: url(assets/desktop/image-phone-and-keyboard.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 255px;
+        height: 480px;
+    }
+
+    .bot-2-img {
+        background-image: url(assets/desktop/image-glass-and-keyboard.jpg);
+        background-repeat: no-repeat;
+        width: 445px;
+        height: 480px;
+    }
+
+    .text-2 {
+        flex-direction: column;
+        width: 255px;
+        height: 265px;
+        grid-area: content;
+        margin-left: 120px;
+    }
+    #bot-p {
+        width: 255px;
+        height: 130px;
+        margin: 27px 0 0 0;
+    }
+    h2 {
+        margin: 0;
+    }
+
+    .box-container {
+        max-width: 1110px;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 131px;
+    }
+    .box-1 , .box-2 , .box-3 , .box-4 {
+        width: 255px;
+        height: 323px;
+    }
+
+    .footer-footer {
+        margin: 128px auto;
+    }
+}
